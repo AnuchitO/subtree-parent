@@ -1,4 +1,4 @@
 const child = require('./subtree-child/child')
 console.log("this is parent subtree.")
 
-child.doSomething()
+child.doSomething("new param")
